@@ -62,10 +62,12 @@
 
 <script>
     import App from "./App.svelte";
+    import Nested from "./Nested.svelte";
 
 
 </script>
 
 <section>
 	<App/>
+	<Nested/>
 </section>
