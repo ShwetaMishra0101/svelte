@@ -1,4 +1,4 @@
-<p>.... don't affect this element </p>
+<!-- <p>.... don't affect this element </p>
 
 <script>
     let count = 0;
@@ -37,4 +37,15 @@ $: if(count >= 10){
     button:hover{
         background-color: brown;
     }
-</style>
+</style> -->
+
+
+<script>
+    export let answer =  '100';
+</script>
+
+<p>This is answer is  {answer}</p>
+
+
+
+

@@ -61,13 +61,28 @@
 
 
 <script>
+    import { version } from "vite";
     import App from "./App.svelte";
+    import Info from "./info.svelte";
     import Nested from "./Nested.svelte";
+    import Ifelse from "./Ifelse.svelte";
+
+	const pkg = {
+		name: 'svelte',
+		version : '3',
+		speed: 'blazing',
+		website: 'https://svelte.dev'
+
+	}
 
 
 </script>
 
 <section>
-	<App/>
-	<Nested/>
+	<!-- <App/> -->
+	<!-- <Nested answer = {42}/> -->
+	<!-- <Nested/> -->
+
+	<!-- <Info {...pkg} /> -->
+	 <Ifelse/>
 </section>
