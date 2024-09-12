@@ -61,19 +61,20 @@
 
 
 <script>
-    import { version } from "vite";
+    // import { version } from "vite";
     import App from "./App.svelte";
-    import Info from "./info.svelte";
-    import Nested from "./Nested.svelte";
+    import Each from "./Each.svelte";
+    // import Info from "./info.svelte";
+    // import Nested from "./Nested.svelte";
     import Ifelse from "./Ifelse.svelte";
 
-	const pkg = {
-		name: 'svelte',
-		version : '3',
-		speed: 'blazing',
-		website: 'https://svelte.dev'
+	// const pkg = {
+	// 	name: 'svelte',
+	// 	version : '3',
+	// 	speed: 'blazing',
+	// 	website: 'https://svelte.dev'
 
-	}
+	// }
 
 
 </script>
@@ -84,5 +85,6 @@
 	<!-- <Nested/> -->
 
 	<!-- <Info {...pkg} /> -->
-	 <Ifelse/>
+	 <!-- <Ifelse/> -->
+	  <Each/>
 </section>
