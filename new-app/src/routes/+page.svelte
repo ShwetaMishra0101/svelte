@@ -69,6 +69,7 @@
     // import Info from "./info.svelte";
     // import Nested from "./Nested.svelte";
     import Ifelse from "./Ifelse.svelte";
+    import InlineHandlers from "./InlineHandlers.svelte";
 
 	// const pkg = {
 	// 	name: 'svelte',
@@ -90,5 +91,6 @@
 	 <!-- <Ifelse/> -->
 	  <!-- <Each/> -->
 	   <!-- <Await/> -->
-		<Dom/>
+		<!-- <Dom/> -->
+	<InlineHandlers/>	 
 </section>
