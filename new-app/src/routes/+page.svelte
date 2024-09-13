@@ -63,6 +63,8 @@
 <script>
     // import { version } from "vite";
     import App from "./App.svelte";
+    import Await from "./Await.svelte";
+    import Dom from "./dom.svelte";
     import Each from "./Each.svelte";
     // import Info from "./info.svelte";
     // import Nested from "./Nested.svelte";
@@ -86,5 +88,7 @@
 
 	<!-- <Info {...pkg} /> -->
 	 <!-- <Ifelse/> -->
-	  <Each/>
+	  <!-- <Each/> -->
+	   <!-- <Await/> -->
+		<Dom/>
 </section>
