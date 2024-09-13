@@ -67,10 +67,13 @@
     import Dom from "./dom.svelte";
     import Each from "./Each.svelte";
     import EventModifiers from "./EventModifiers.svelte";
+    import GroupsInput from "./GroupsInput.svelte";
     // import Info from "./info.svelte";
     // import Nested from "./Nested.svelte";
     import Ifelse from "./Ifelse.svelte";
     import InlineHandlers from "./InlineHandlers.svelte";
+    import Inner from "./Inner.svelte";
+    import Input from "./Input.svelte";
 
 	// const pkg = {
 	// 	name: 'svelte',
@@ -79,7 +82,9 @@
 	// 	website: 'https://svelte.dev'
 
 	// }
-
+function handleMessage(e){
+	alert(e.detail.text)
+}
 
 </script>
 
@@ -94,5 +99,11 @@
 	   <!-- <Await/> -->
 		<!-- <Dom/> -->
 	<!-- <InlineHandlers/> -->
-	<EventModifiers/>
+	<!-- <EventModifiers/> -->
+	
+	<!--  -->
+<!-- <Inner on:message={handleMessage}/> -->
+ <!-- <Input/> -->
+<GroupsInput/>
+	
 </section>
