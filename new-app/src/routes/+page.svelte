@@ -66,6 +66,7 @@
     import Await from "./Await.svelte";
     import Dom from "./dom.svelte";
     import Each from "./Each.svelte";
+    import EventModifiers from "./EventModifiers.svelte";
     // import Info from "./info.svelte";
     // import Nested from "./Nested.svelte";
     import Ifelse from "./Ifelse.svelte";
@@ -92,5 +93,6 @@
 	  <!-- <Each/> -->
 	   <!-- <Await/> -->
 		<!-- <Dom/> -->
-	<InlineHandlers/>	 
+	<!-- <InlineHandlers/> -->
+	<EventModifiers/>
 </section>
